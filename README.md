@@ -11,10 +11,11 @@
 
 ### Run Prometheus server locally
 1. Download and edit the prometheus.yml file pointing to local running movie-catalog-service Prometheus endpoints
-   ```
+
+  ```agsl
   - job_name: 'spring-resillience'
     metrics_path: '/actuator/prometheus'
     scrape_interval: 5s
     static_configs:
       - targets: ["localhost:8081"]
-   ```
+ ```
