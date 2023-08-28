@@ -1,4 +1,4 @@
-# microservice
+# microservice - service discovery and resilience4j 
 
 ### How to run the Eureka server
 1. Run discovery service - run the Eureka server locally which provides the dashboard for service discovery
